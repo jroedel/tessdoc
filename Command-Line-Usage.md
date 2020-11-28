@@ -118,7 +118,7 @@ Output
 
 This creates a pdf with the image and a separate searchable text layer with the recognized text.
 
-    tesseract c:\temp\test_ara.jpg -l ara -psm 3 c:\temp\test_ara pdf
+    tesseract c:\temp\test_ara.jpg -l ara --psm 3 c:\temp\test_ara pdf
 
 Files are attached (source JPG and output PDF)
 
@@ -189,7 +189,7 @@ The following examples are using this image with text in Devanagari script and S
 
 ![san002.png](https://cloud.githubusercontent.com/assets/82178/13678011/81953684-e6ba-11e5-91e8-5c40518e94a6.png)
 
-    tesseract  testing/san002.png testing/san002-psm6 -l san -psm 6 
+    tesseract  testing/san002.png testing/san002-psm6 -l san --psm 6 
 
 Output
 
@@ -214,7 +214,7 @@ Output
     'शिवगङ्गासद्दृस्रनत्माव'ळि 517
     गम्पत्रीसह्स्रनत्मक्तोत्रम्- नाम।व'ळिऽ (१) 531
 
-    tesseract testing/san002.png testing/san002-psm3 -l san -psm 3
+    tesseract testing/san002.png testing/san002-psm3 -l san --psm 3
 
 Output
 
